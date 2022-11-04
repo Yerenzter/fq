@@ -26,17 +26,22 @@
 <p>So take a fresh start that gives you a knowledge about how to use our library</p>
 <pre>
 <code>
-let myText = out({
-  select: "#parentLay",
-  elem: "p",
-  id: "myText",
-  text: "Hi, there!"
-},
-{
-  stylesheet: {
-    id: "#myText",
-    size: "64px"
-  }
+import(../lib/fq/fq.js).then(fq => {
+  let head = fq.out({
+    hypertext: {
+      select: "#parentLay",
+      elem: "h1",
+      id: "head",
+      text: "Hi, I'm Yerenzter"
+    }
+  },
+  {
+    stylesheet: {
+      id: "#head",
+      fontSize: "64px",
+      color: "FE2424"
+    }
+  });
 });
 </code>
 </pre>
