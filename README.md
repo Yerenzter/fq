@@ -26,14 +26,12 @@
 <p>So take a fresh start that gives you a knowledge about how to use our library</p>
 <pre>
 <code>
-let myText = out({
-  hypertext: {
-    select: "#myLay",
+let myText = {
     elem: "h1",
-    text: "Hi, I am Yerenzter!",
-    id: "myText"
-  }
-});
+    text: "This is Quikker!"
+};
+
+render([myText], root);
 </code>
 </pre>
 <sup><em>This is a syntax of FlanxQuikker that how to write a Hello World to the webpage</em></sup>
