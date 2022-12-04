@@ -19,7 +19,7 @@
 -------------------
 <p>FlanxQuikkerJS (a.k.a FQJS) is a free, open-source, nano-sized, DOM manipulation, stylsheet and selector, event-driven, imperative type & general purpose JavaScript library. Which you can able to write HTML & CSS stuffs in one single JavaScript file.</p>
 <p>FlanxQuikkerJS was developed around 2020-2021 by Yerenzter of Qubonic Arts & Software with it's first prototype version is <strong>0.0.1</strong> which is the functional type of syntax.</p>
-<p>FlanxQuikkerJS syntax is just only used object property model, we only used one function which is <code><strong>out(html, css)</strong></code> that is the function serves as to create HTML DOM, Attribute & CSS rule styling it has two parameters which is <code><strong>html</strong></code> is to create HTML elements & attributes and <code><strong>css</strong></code> for styling elements.</p>
+<p>FlanxQuikkerJS syntax is just only used object property model, we only used 4 functions which is <code><strong>out(fq)</strong></code> that is the function serves as to create HTML DOM, Attribute & CSS rule styling it has two parameters which is <code><strong>html</strong></code> is to create HTML elements & attributes and <code><strong>css</strong></code> for styling elements.</p>
 
 ### 🔭 Overview
 -------------------
