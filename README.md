@@ -27,8 +27,15 @@
 <pre>
 <code>
 let myText = {
-    elem: "h1",
-    text: "This is Quikker!"
+    html: {
+        elem: "h1",
+        text: "Quikker is awesome!",
+        id: "text"
+    },
+    css: {
+        id: "text",
+        color: "#FE2424"
+    }
 };
 
 render([myText], root);
